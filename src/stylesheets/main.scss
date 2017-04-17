@@ -1,0 +1,21 @@
+.main-image {
+  height: 200px;
+  background-image: url('/media/palmtrees.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.m-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-column-gap: 0;
+     -moz-column-gap: 0;
+          column-gap: 0;
+  position: relative;
+}
+
+.m * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}

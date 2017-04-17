@@ -1,11 +1,11 @@
 import React from "react";
 import "../stylesheets/main.scss";
+import '../../node_modules/antd/dist/antd.css';
 import { connect } from "react-redux";
 import { ProgressBar } from "react-bootstrap";
-import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
 // app component
 export default class App extends React.Component {
@@ -18,7 +18,7 @@ export default class App extends React.Component {
   render() {
     return (
       <MuiThemeProvider muiTheme={getMuiTheme()}>
-        <div className="container">
+        <div>
           {this.props.children}
         </div>
       </MuiThemeProvider>

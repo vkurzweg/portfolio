@@ -1,13 +1,26 @@
 import React from "react";
+import Nav from './common/Nav';
+import Carousel from './common/Carousel';
+import Grid from './common/Grid';
 
-// Home page component
-export default class Home extends React.Component {
+
+
+export class Home extends React.Component {
+
   // render
   render() {
+
     return (
-      <div className="page-home">
-        <h4>Hello world!</h4>
+      <div>
+        <div className="main-image">
+          <Nav />
+        </div>
+        <Carousel />
+        <Grid />
       </div>
     );
+
   }
 }
+
+export default Home;
