@@ -1,21 +1,23 @@
 import React from "react";
-import Eventmakr from '/media/screenshot_emkr.png';
-import MJ from '/media/screenshot_bookmarc.png';
-import Other from '/media/screenshot_other.jpg';
-import Hilton from '/media/screenshot_calendonian.png';
-import Tripific from '/media/screenshot_tripific.jpg';
-import Slot from '/media/screenshot_slot.jpg';
 
 
 export class Masonry extends React.Component {
 
   // render
   render() {
+    const screenshots = ['eventmakr item', 'bookmarc item', 'other item', 'hilton item', 'tripific item', 'slot item' ]
+
+    const images = screenshots.map((screenshot, i) => {
+      return (
+        <div className={screenshot} key={i} />
+        )
+    })
 
     return (
-      <div>
-
-
+      <div className="wrapper">
+        <div className="masonry">
+          {images}
+        </div>
       </div>
     );
 

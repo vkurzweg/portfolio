@@ -1,8 +1,10 @@
 import React from "react";
 import Nav from './common/Nav';
-import Carousel from './common/Carousel';
+import CopyCarousel from './common/CopyCarousel';
+import Dev from './common/Dev';
 import Grid from './common/Grid';
-
+import Masonry from './common/Masonry';
+import Bio from './common/Bio';
 
 
 export class Home extends React.Component {
@@ -15,8 +17,10 @@ export class Home extends React.Component {
         <div className="main-image">
           <Nav />
         </div>
-        <Carousel />
+        <CopyCarousel />
         <Grid />
+        <Bio />
+        <Dev />
       </div>
     );
 

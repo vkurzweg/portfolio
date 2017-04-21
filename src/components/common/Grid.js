@@ -6,7 +6,7 @@ const styles = {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
-    marginTop: '6%',
+    marginTop: '3%',
   },
   gridList: {
     display: 'flex',
@@ -21,13 +21,19 @@ const tilesData = [
     title: 'Development & Design',
   }, {
     img: '../../media/screenshot_bookmarc.png',
-    title: 'Copywriting',
-  },{
+    title: 'Content',
+  }, {
     img: '../../media/screenshot_other.jpg',
     title: 'Development & Design',
   }, {
+    img: '../../media/screenshot_tripific.jpg',
+    title: 'Development & Design',
+  }, {
     img: '../../media/screenshot_calendonian.png',
-    title: 'Copywriting & Search Marketing',
+    title: 'Content & Search Marketing',
+  }, {
+    img: '../../media/screenshot_slot.jpg',
+    title: 'Development & Design',
   }
 ]
 

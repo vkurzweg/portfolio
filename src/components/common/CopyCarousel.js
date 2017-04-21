@@ -1,10 +1,10 @@
 import React from "react";
 import TextCarousel from 'react-text-carousel';
 
-const phrases = ['web development', 'UI design', 'copywriting', 'UX consulting', 'search marketing']
+const phrases = ['web development', 'UX/UI design', 'copywriting', 'search marketing']
 const interval = 3000;
 
-export class Carousel extends React.Component {
+export class CopyCarousel extends React.Component {
 
   // render
   render() {
@@ -24,4 +24,4 @@ export class Carousel extends React.Component {
   }
 }
 
-export default Carousel;
+export default CopyCarousel;
