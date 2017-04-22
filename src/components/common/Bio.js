@@ -8,7 +8,7 @@ export class Bio extends React.Component {
 
     return (
       <div style={{ backgroundColor: '#212121', color: '#FAFAFA', padding: '5%', marginTop: '7%', textAlign: 'center', fontSize: '16px' }}>
-        <p>I build functional, engaging, thoughtfully-designed digital products.</p>
+        <p>I build functional, engaging, thoughtfully-designed websites and applications.</p>
       </div>
     );
 
