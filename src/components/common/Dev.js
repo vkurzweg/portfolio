@@ -7,20 +7,8 @@ const steps = [{
   title: 'Development',
   content:
     <div>
-      <h3 style={{ textAlign: 'center' }}>Responsive Websites & Applications</h3>
-      <div style={{ display: 'inline-flex', marginTop: '3%', fontSize: '14px' }}>
-        <ul style={{ listStyleType: 'circle', textAlign: 'left', lineHeight: '200%' }}>
-          <li>HTML5, CSS3, Javascript ES6</li>
-          <li>React + Redux and Angular</li>
-          <li>Node.js</li>
-          <li>MongoDB</li>
-        </ul>
-        <ul style={{ listStyleType: 'circle', textAlign: 'left', paddingLeft: '10%', lineHeight: '200%' }}>
-          <li>Stripe.js payment integration</li>
-          <li>Facebook and Google oAuth</li>
-          <li>Google Maps Geocoding</li>
-        </ul>
-      </div>
+      <h3 style={{ textAlign: 'center', marginBottom: '2%' }}>Responsive Websites & Applications</h3>
+      <img src="/media/logos.png" style={{ display: 'block', margin: '0 auto', marginRight: 'auto', height: '250px' }} />
     </div>
 }, {
   title: 'Design',
@@ -104,3 +92,17 @@ export class Dev extends React.Component {
 }
 
 export default Dev;
+
+// <div style={{ display: 'inline-flex', marginTop: '3%', fontSize: '14px' }}>
+//   <ul style={{ listStyleType: 'circle', textAlign: 'left', lineHeight: '200%' }}>
+//     <li>HTML5, CSS3, Javascript ES6</li>
+//     <li>React + Redux and Angular</li>
+//     <li>Node.js</li>
+//     <li>MongoDB</li>
+//   </ul>
+//   <ul style={{ listStyleType: 'circle', textAlign: 'left', paddingLeft: '10%', lineHeight: '200%' }}>
+//     <li>Stripe.js payment integration</li>
+//     <li>Facebook and Google oAuth</li>
+//     <li>Google Maps Geocoding</li>
+//   </ul>
+// </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import {GridList, GridTile} from 'material-ui/GridList';
-import { Modal } from 'antd';
+import { Modal, Carousel } from 'antd';
 
 const styles = {
   root: {
@@ -144,10 +144,23 @@ export class Grid extends React.Component {
           <p>some contents...</p>
           <p>some contents...</p>
         </Modal>
-        <Modal title="Bookmarc" visible={this.state.visible1} footer={null} onCancel={this.closeModal1}>
-          <p>some contents...</p>
-          <p>some contents...</p>
-          <p>some contents...</p>
+        <Modal
+          title="Marc Jacobs"
+          visible={this.state.visible1}
+          footer={null}
+          onCancel={this.closeModal1}
+          style={{ height: '75%', width: '50%'}}
+        >
+          <Carousel vertical="true">
+            <div><img src="../../media/screenshot_bookmarc.png" style={{ display: 'block', margin: '0 auto', height: '150px'}} /></div>
+            <div><img src="../../media/screenshot_emkr.png" style={{ display: 'block', margin: '0 auto', height: '150px'}} /></div>
+            <div><img src="../../media/screenshot_bookmarc.png" style={{ display: 'block', margin: '0 auto', height: '150px'}} /></div>
+            <div><img src="../../media/screenshot_emkr.png" style={{ display: 'block', margin: '0 auto', height: '150px'}} /></div>
+          </Carousel>
+          <p style={{ marginTop: '3%' }}><em>Building digital presence and brand awareness for a fashion company’s lifestyle brand.</em></p>
+          <p style={{ textAlign: 'center', fontWeight: 'bold', marginTop: '2%', marginBottom: '2%' }}>Strategy + Branding + Content</p>
+          <p>Marc Jacobs International is a  global fashion house owned by French luxury conglomerate LVMH. True to the designer’s history of innovation in the industry, in 2010 Marc Jacobs opened a series of concept stores devoted to art and fashion in print.</p>
+          <p> I presented the Director of Bookmarc with a plan to boost its visibility through digital and print channels. Among the results were a revamped Bookmarc website and the publication of its first print catalog. I also contributed product research, curation, and content.</p>
         </Modal>
         <Modal title="The Other" visible={this.state.visible2} footer={null} onCancel={this.closeModal2}>
           <p>some contents...</p>
