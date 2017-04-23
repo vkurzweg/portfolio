@@ -6,6 +6,14 @@
   background-position: center;
 }
 
+.second-image {
+  height: 175px;
+  background-image: url('/media/weho.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
 .new {
   font-weight: bold;
   color: #FAFAFA;
@@ -13,47 +21,47 @@
 
 // Screenshots
 
-.eventmakr {
-  background-image: url('/media/screenshot_emkr.png');
-  background-size: cover;
-  height: 200px;
-  width: 20%;
-}
+// .eventmakr {
+//   background-image: url('/media/screenshot_emkr.png');
+//   background-size: cover;
+//   height: 200px;
+//   width: 20%;
+// }
 
-.bookmarc {
-  background-image: url('/media/screenshot_bookmarc.png');
-  background-size: cover;
-  height: 200px;
-  width: 20%;
-}
+// .bookmarc {
+//   background-image: url('/media/screenshot_bookmarc.png');
+//   background-size: cover;
+//   height: 200px;
+//   width: 20%;
+// }
 
-.other {
-  background-image: url('/media/screenshot_other.jpg');
-  background-size: cover;
-  height: 200px;
-  width: 20%;
-}
+// .other {
+//   background-image: url('/media/screenshot_other.jpg');
+//   background-size: cover;
+//   height: 200px;
+//   width: 20%;
+// }
 
-.hilton {
-  background-image: url('/media/screenshot_calendonian.png');
-  background-size: cover;
-  height: 200px;
-  width: 20%;
-}
+// .hilton {
+//   background-image: url('/media/screenshot_calendonian.png');
+//   background-size: cover;
+//   height: 200px;
+//   width: 20%;
+// }
 
-.tripific {
-  background-image: url('/media/screenshot_tripific.jpg');
-  background-size: cover;
-  height: 200px;
-  width: 20%;
-}
+// .tripific {
+//   background-image: url('/media/screenshot_tripific.jpg');
+//   background-size: cover;
+//   height: 200px;
+//   width: 20%;
+// }
 
-.slot {
-  background-image: url('/media/screenshot_slot.jpg');
-  background-size: cover;
-  height: 200px;
-  width: 20%;
-}
+// .slot {
+//   background-image: url('/media/screenshot_slot.jpg');
+//   background-size: cover;
+//   height: 200px;
+//   width: 20%;
+// }
 
 // Slider in Modals
 
@@ -78,6 +86,7 @@
   margin: 0 auto;
   margin-top: 24px;
   width: 100px;
+  padding-bottom: 3%;
 }
 
 //Masonry

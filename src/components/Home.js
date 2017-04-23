@@ -3,7 +3,7 @@ import Nav from './common/Nav';
 import CopyCarousel from './common/CopyCarousel';
 import Dev from './common/Dev';
 import Grid from './common/Grid';
-import Masonry from './common/Masonry';
+import Intro from './common/Intro';
 import Bio from './common/Bio';
 
 
@@ -19,8 +19,11 @@ export class Home extends React.Component {
         </div>
         <CopyCarousel />
         <Grid />
-        <Bio />
+        <Intro />
         <Dev />
+        <div className="second-image">
+        </div>
+        <Bio />
       </div>
     );
 
