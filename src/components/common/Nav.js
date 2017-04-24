@@ -53,17 +53,16 @@ export default class Nav extends React.Component {
               selectedKeys={[this.state.current]}
               mode="inline"
             >
-            <SubMenu key="sub1" title={<span><Icon type="code-o" /><span>Work</span></span>}>
-              <Menu.Item key="1">Development & Design</Menu.Item>
-              <Menu.Item key="2">Content Creation & Marketing</Menu.Item>
+            <SubMenu key="sub1" title={<span><Icon type="info" /><span>About</span></span>}>
+              <Menu.Item key="1">Bio</Menu.Item>
+              <Menu.Item key="2">Resume</Menu.Item>
             </SubMenu>
-            <SubMenu key="sub2" title={<span><Icon type="info" /><span>About</span></span>}>
-              <Menu.Item key="5">Bio</Menu.Item>
-              <Menu.Item key="6">Resume</Menu.Item>
+            <SubMenu key="sub2" title={<span><Icon type="user" /><span>Social</span></span>}>
+              <Menu.Item key="3">Github</Menu.Item>
+              <Menu.Item key="4">LinkedIn</Menu.Item>
             </SubMenu>
-            <SubMenu key="sub4" title={<span><Icon type="github" /><span>Social</span></span>}>
-              <Menu.Item key="9">Github</Menu.Item>
-              <Menu.Item key="10">LinkedIn</Menu.Item>
+            <SubMenu key="sub3" title={<span><Icon type="mail" /><span>Contact</span></span>}>
+              <Menu.Item key="5">Contact Info</Menu.Item>
             </SubMenu>
           </Menu>
         </div>

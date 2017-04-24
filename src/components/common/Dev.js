@@ -27,19 +27,19 @@ const steps = [{
   title: 'Design',
   content:
     <div>
-      <h3>Wireframes, Prototypes & User Interfaces</h3>
+      <p style={{ fontSize: '14px' }}>Wireframes, Prototypes & User Interfaces</p>
       <div className="container" style={{ lineHeight: '200%', textAlign: 'center', display: 'block', margin: '0 auto', marginTop: '2%', width: '100%'}}>
-        <div className="row" style={{ display: 'inline-flex' }}>
+        <div className="row" style={{ display: 'inline-flex', width: '80%' }}>
           <div className="col-md-4">
-            <img src="/media/search.png" style={{ marginBottom: '5%'}} />
+            <img src="/media/search_blue.png" style={{ marginBottom: '7%'}} />
             <p><b>Professional design research</b> including user interviews and competitive analysis</p>
           </div>
           <div className="col-md-4">
-            <img src="/media/mobile.png" style={{ marginBottom: '5%'}} />
+            <img src="/media/mobile_blue.png" style={{ marginBottom: '8%'}} />
             <p><b>Mobile-first wireframing and prototyping</b> using Sketch and InVision</p>
           </div>
           <div className="col-md-4">
-            <img src="/media/responsive.png" style={{ marginBottom: '5%'}} />
+            <img src="/media/responsive_blue.png" style={{ marginBottom: '5%'}} />
             <p><b>Responsive framework and library integration</b> including Bootstrap and Material-UI</p>
           </div>
         </div>
@@ -50,7 +50,16 @@ const steps = [{
   content:
     <div>
       <div style={{ marginTop: '5%', width: '60%', margin: '0 auto', textAlign: 'left'}}>
-        <p>
+        <h4 style={{ textAlign: 'center', fontWeight: 'bold', marginBottom: '2%' }}>Content That Gets Attention</h4>
+        <p style={{ textAlign: 'center' }}>Optimized, on-brand digital content writing and marketing since 2008.</p>
+        <div>
+          <ul style={{ width: '60%', display: 'block', margin: '0 auto', listStyleType: 'circle', textAlign: 'left', marginTop: '2%', lineHeight: '200%' }}>
+            <li><b>SEO copywriting</b> for national and international e-commerce</li>
+            <li>Professional editing for <b>digital and print media</b></li>
+            <li><b>Clear, concise copywriting</b> based on research and brand guidelines</li>
+            <li>Increased conversion rates for <b>startup and enterprise clients</b></li>
+          </ul>
+        </div>
       </div>
     </div>
 }]
