@@ -34,7 +34,10 @@ export default class Nav extends React.Component {
   render() {
     let display = 'none';
     (this.state.showMenu) ? display = 'block' : display = 'none';
-    const github = <a href="https://github.com/vkurzweg" target="blank" ><Icon type="github" style={{ color: 'white', fontSize: '20px'}} /></a>
+    const github = <div style={{ display: 'inline-flex' }}>
+                      <a href="https://www.linkedin.com/in/victoriakurzweg/" target="blank"><img src="/media/linkedin.png" style={{ width: '20px', paddingRight: '10%' }} /></a>
+                      <a href="https://github.com/vkurzweg" target="blank" ><Icon type="github" style={{ color: 'white', fontSize: '20px', paddingLeft: '30%'}} /></a>
+                    </div>
     return (
       <div style={{ position: 'fixed', width: '100%', zIndex: '10' }}>
         <AppBar
@@ -57,12 +60,8 @@ export default class Nav extends React.Component {
               <Menu.Item key="1">Bio</Menu.Item>
               <Menu.Item key="2">Resume</Menu.Item>
             </SubMenu>
-            <SubMenu key="sub2" title={<span><Icon type="user" /><span>Social</span></span>}>
-              <Menu.Item key="3">Github</Menu.Item>
-              <Menu.Item key="4">LinkedIn</Menu.Item>
-            </SubMenu>
-            <SubMenu key="sub3" title={<span><Icon type="mail" /><span>Contact</span></span>}>
-              <Menu.Item key="5">Contact Info</Menu.Item>
+            <SubMenu key="sub2" title={<span><Icon type="mail" /><span>Contact</span></span>}>
+              <Menu.Item key="3">Info</Menu.Item>
             </SubMenu>
           </Menu>
         </div>
