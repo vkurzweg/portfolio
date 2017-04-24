@@ -12,7 +12,7 @@ export class CopyCarousel extends React.Component {
     return (
       <div style={{ display: 'block', width: '100%', margin: '0 auto', fontFamily: 'Share', textAlign: 'center', fontSize: '18px', marginTop: '3%' }}>
         <div style={{ display: 'inline-flex' }}>
-          <p>Victoria Kurzweg does&nbsp;</p>
+          <p>Victoria does&nbsp;</p>
           <span style={{ fontWeight: 'bold' }}>
             <TextCarousel phrases={phrases} interval={interval} />
           </span>

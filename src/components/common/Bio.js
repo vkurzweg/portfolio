@@ -9,13 +9,12 @@ export class Bio extends React.Component {
     return (
       <div style={{ width: '100%', backgroundColor: '#212121', color: '#FAFAFA', textAlign: 'center', fontSize: '16px' }}>
         <div style={{ display: 'inline-flex', width: '100%' }}>
-          <img src="/media/profile.jpg" alt="Victoria Kurzweg" style={{ height: '200px', marginTop: '5%', marginBottom: '5%', marginLeft: '10%'}} />
-          <div style={{ marginTop: '5%', marginLeft: '3%' }}>
-            <h3 style={{ textAlign: 'center', marginBottom: '5%' }}>About Victoria</h3>
-            <p>Some kind of about section with link to resume...</p>
+          <img src="/media/profile.jpg" alt="Victoria Kurzweg" style={{ height: '250px', marginTop: '2%', marginBottom: '2%', marginLeft: '5%'}} />
+          <div style={{ marginTop: '8%', marginLeft: '3%' }}>
+            <p style={{ fontSize: '14px', textAlign: 'left', marginRight: '5%', marginBottom: '5%' }}>Hello I'm Victoria Kurzweg, a web developer and designer based in West Hollywood. Before pivoting to tech in 2016, I worked in sales, international search marketing, journalism and public affairs.</p>
+            <p style={{ fontSize: '14px', textAlign: 'left', marginRight: '5%', marginTop: '3%'}}>I was born in New Orleans and have lived many places including Austin, St. Louis and Washington, D.C. I have a master's in history of international relations from the London School of Economics.</p>
           </div>
         </div>
-        <p style={{ fontSize: '12px', textAlign: 'center', marginTop: '5%', paddingBottom: '2%'}}>Copyright 2017 Victoria Kurzweg</p>
       </div>
     );
 

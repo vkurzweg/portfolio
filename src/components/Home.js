@@ -20,8 +20,8 @@ export class Home extends React.Component {
         <CopyCarousel />
         <Grid />
         <Intro />
-        <Dev />
         <div className="second-image">
+        <Dev />
         </div>
         <Bio />
       </div>
