@@ -36,6 +36,9 @@ export class Home extends React.Component {
           <CopyCarousel />
           <Grid />
           <Intro />
+          <div className="second-image-mobile">
+          <Dev />
+          </div>
         </MediaQuery>
       </div>
     );
