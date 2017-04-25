@@ -1,6 +1,6 @@
 import React from "react";
 import "../stylesheets/main.scss";
-import '../../node_modules/antd/dist/antd.css';
+import '../../../node_modules/antd/dist/antd.css';
 import { connect } from "react-redux";
 import { ProgressBar } from "react-bootstrap";
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
