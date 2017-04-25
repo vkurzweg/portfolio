@@ -187,7 +187,7 @@ export class Grid extends React.Component {
           <ul style={{ width: '90%', display: 'block', margin: '0 auto', listStyleType: 'circle', textAlign: 'left', marginTop: '2%', lineHeight: '200%' }}>
             <li><b>Designed and built an online gallery</b> for Los Angeles curator Aaron Freshour</li>
             <li><b>Created a custom CMS</b> using the MEAN stack</li>
-            <li>Integrated a responsive CSS mosaic grid and hover effects</li>
+            <li>Integrated a <b>responsive CSS</b> mosaic grid and hover effects</li>
           </ul>
         </Modal>
       </div>
