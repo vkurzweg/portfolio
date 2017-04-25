@@ -6,19 +6,19 @@ const Step = Steps.Step;
 const steps = [{
   title: 'Development',
   content:
-    <div>
-      <div style={{ display: 'inline-flex' }}>
-        <div>
+    <div className="container">
+      <div className="row" style={{ display: 'inline-flex' }}>
+        <div className="col-sm-6">
           <p style={{ textAlign: 'center', marginTop: '1%', marginBottom: '2%'}}><b>Responsive websites and applications</b> built with:</p>
-          <img src="/media/logos.png" style={{ display: 'block', margin: '0 auto', marginRight: '5%', height: '200px' }} />
+          <img src="/media/logos.png" style={{ display: 'block', margin: '0 auto', marginRight: '5%', height: '150px' }} />
         </div>
-        <div style={{ marginLeft: '3%', width: '250px' }}>
+        <div className="col-sm-6" style={{ marginLeft: '3%', width: '250px' }}>
           <p style={{ marginTop: '1%' }}><b>Featuring:</b></p>
           <ul style={{ listStyleType: 'circle', textAlign: 'left', marginLeft: '10%', marginTop: '5%', lineHeight: '200%' }}>
-            <li>Stripe.js payment integration</li>
-            <li>Facebook and Google authentication</li>
-            <li>Google Maps geocoding</li>
-            <li>CSS3 transitions & animations</li>
+            <li>Stripe.js <b>payment</b> integration</li>
+            <li>Facebook and Google <b>authentication</b></li>
+            <li>Google Maps <b>geocoding</b></li>
+            <li>CSS3 transitions & <b>animations</b></li>
           </ul>
         </div>
       </div>
@@ -49,14 +49,13 @@ const steps = [{
   title: 'Content',
   content:
     <div>
-      <div style={{ marginTop: '5%', width: '60%', margin: '0 auto', textAlign: 'left'}}>
-        <h4 style={{ textAlign: 'center', fontWeight: 'bold', marginBottom: '2%' }}>Content That Gets Attention</h4>
-        <p style={{ textAlign: 'center' }}>Optimized, on-brand digital content writing and marketing since 2008.</p>
+      <div style={{ marginTop: '5%', width: '80%', margin: '0 auto', textAlign: 'left'}}>
+        <h5 style={{ textAlign: 'center', fontWeight: 'bold' }}>Optimized, on-brand digital content writing and marketing since 2008.</h5>
         <div>
           <ul style={{ width: '50%', display: 'block', margin: '0 auto', listStyleType: 'circle', textAlign: 'left', marginTop: '2%', lineHeight: '200%' }}>
-            <li><b>SEO copywriting</b> for national and international e-commerce</li>
-            <li>Professional editing for <b>digital and print media</b></li>
-            <li><b>Clear, concise copywriting</b> based on research and brand guidelines</li>
+            <li>Taught <b>SEO copywriting</b> for e-commerce in Austin and Bulgaria</li>
+            <li>Wide range of writing experience (public affairs, PR, journalism, commercial) in <b>digital and print media</b></li>
+            <li><b>Clear, consistent, concise copywriting</b> based on research and brand guidelines</li>
             <li>Increased conversion rates for <b>startup and enterprise clients</b></li>
           </ul>
         </div>
@@ -92,7 +91,7 @@ export class Dev extends React.Component {
           <Step title="Design" icon={<Icon type="desktop" />} />
           <Step title="Content" icon={<Icon type="edit" />} />
         </Steps>
-        <div className="steps-content">{steps[this.state.current].content}</div>
+        <div style={{ height: '210px' }} className="steps-content">{steps[this.state.current].content}</div>
           <div className="steps-action">
             {
               this.state.current < steps.length

@@ -1,9 +1,18 @@
 .main-image {
   height: 225px;
+  width: 100%;
   background-image: url('/media/palmtrees.png');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+}
+
+.main-image-mobile {
+  height: 225px;
+  width: 100%;
+  background-image: url('/media/palmtrees.png');
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .second-image {
@@ -62,6 +71,14 @@
 //   height: 200px;
 //   width: 20%;
 // }
+
+.ant-modal {
+  width: 55%;
+}
+
+.ant-btn-primary {
+  background-color: #108EE9;
+}
 
 // Slider in Modals
 

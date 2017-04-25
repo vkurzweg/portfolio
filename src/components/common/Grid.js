@@ -151,7 +151,7 @@ export class Grid extends React.Component {
           <ul style={{ width: '90%', display: 'block', margin: '0 auto', listStyleType: 'circle', textAlign: 'left', marginTop: '2%', lineHeight: '200%' }}>
             <li><b>Designed and built landing pages and MVP app</b> for Eventmakr, an early-stage startup in Santa Monica </li>
             <li><b>Led wireframing, prototyping, and UI design</b> during minimum viable product development</li>
-            <li>Co-developed a <b>React + Redux application</b> with search, chat, and payment features</li>
+            <li>Co-developed a <b>responsive React + Redux application</b> with search, chat, and payment features</li>
           </ul>
         </Modal>
         <Modal
@@ -185,8 +185,22 @@ export class Grid extends React.Component {
           <p style={{ textAlign: 'center', marginTop: '3%' }}><em>Building a <a href="http://the-other.herokuapp.com/#/" target="blank" style={{ textDecoration: 'none', color: '#108EE9', fontWeight: 'bold' }}>digital art gallery</a> in one week</em></p>
           <p style={{ textAlign: 'center', fontWeight: 'bold', marginTop: '2%', marginBottom: '2%' }}>Development + UI Design</p>
           <ul style={{ width: '90%', display: 'block', margin: '0 auto', listStyleType: 'circle', textAlign: 'left', marginTop: '2%', lineHeight: '200%' }}>
-            <li><b>Designed and built an online gallery</b> for Los Angeles curator Aaron Freshour</li>
-            <li><b>Created a custom CMS</b> using the MEAN stack</li>
+            <li><b>Created an online gallery</b> for Los Angeles curator Aaron Freshour for final project of General Assembly WDI program (one-week sprint)</li>
+            <li><b>Built a custom CMS</b> using MEAN stack (MongoDB database, Express server, Angular 1 front end, Node.js runtime)</li>
+            <li>Integrated a <b>responsive CSS</b> mosaic grid and hover effects</li>
+          </ul>
+        </Modal>
+        <Modal title="Hilton Worldwide EMEA" visible={this.state.visible4} footer={null} onCancel={this.closeModal4}>
+          <Carousel vertical="true">
+            <div><img src="../../media/screenshot_other.jpg" style={{ display: 'block', margin: '0 auto', height: '200px'}} /></div>
+            <div><img src="../../media/screenshot_other2.png" style={{ display: 'block', margin: '0 auto', height: '200px'}} /></div>
+            <div><img src="../../media/other_sitemap.jpg" style={{ display: 'block', margin: '0 auto', height: '200px', width: '90%'}} /></div>
+          </Carousel>
+          <p style={{ textAlign: 'center', marginTop: '3%' }}><em>Building a <a href="http://the-other.herokuapp.com/#/" target="blank" style={{ textDecoration: 'none', color: '#108EE9', fontWeight: 'bold' }}>digital art gallery</a> in one week</em></p>
+          <p style={{ textAlign: 'center', fontWeight: 'bold', marginTop: '2%', marginBottom: '2%' }}>Development + UI Design</p>
+          <ul style={{ width: '90%', display: 'block', margin: '0 auto', listStyleType: 'circle', textAlign: 'left', marginTop: '2%', lineHeight: '200%' }}>
+            <li><b>Designed and built an online gallery</b> for Los Angeles curator Aaron Freshour for final project of General Assembly WDI program (one-week sprint)</li>
+            <li><b>Created a custom CMS</b> using MEAN stack (MongoDB database, Express server, Angular 1 front end, Node.js runtime)</li>
             <li>Integrated a <b>responsive CSS</b> mosaic grid and hover effects</li>
           </ul>
         </Modal>
