@@ -179,32 +179,16 @@ export class Grid extends React.Component {
         <Modal title="The Other" visible={this.state.visible2} footer={null} onCancel={this.closeModal2}>
           <Carousel vertical="true">
             <div><img src="../../media/screenshot_other.jpg" style={{ display: 'block', margin: '0 auto', height: '200px'}} /></div>
-            <div><img src="../../media/screenshot_bookmarc2.png" style={{ display: 'block', margin: '0 auto', height: '200px'}} /></div>
-            <div><img src="../../media/screenshot_bookmarc3.png" style={{ display: 'block', margin: '0 auto', height: '200px'}} /></div>
-            <div><img src="../../media/screenshot_bookmarc4.png" style={{ display: 'block', margin: '0 auto', height: '200px'}} /></div>
+            <div><img src="../../media/screenshot_other2.png" style={{ display: 'block', margin: '0 auto', height: '200px'}} /></div>
+            <div><img src="../../media/other_sitemap.jpg" style={{ display: 'block', margin: '0 auto', height: '200px'}} /></div>
           </Carousel>
-          <p style={{ textAlign: 'center', marginTop: '3%' }}><em>Bringing an early-stage startup from idea to product</em></p>
+          <p style={{ textAlign: 'center', marginTop: '3%' }}><em>Building a <a href="http://the-other.herokuapp.com/#/" target="blank" style={{ textDecoration: 'none', color: '#108EE9', fontWeight: 'bold' }}>digital art gallery in one week</a></em></p>
           <p style={{ textAlign: 'center', fontWeight: 'bold', marginTop: '2%', marginBottom: '2%' }}>Development + UI Design</p>
           <ul style={{ width: '90%', display: 'block', margin: '0 auto', listStyleType: 'circle', textAlign: 'left', marginTop: '2%', lineHeight: '200%' }}>
-            <li><b>Designed and built landing pages and MVP app</b> for Eventmakr, an early-stage startup in Santa Monica </li>
-            <li><b>Led wireframing, prototyping, and UI design</b> during minimum viable product development</li>
-            <li>Co-developed a <b>React + Redux application</b> with search, chat, and payment features</li>
+            <li><b>Designed and built an online gallery</b> for a Los Angeles curator</li>
+            <li><b>Created a custom CMS</b> using the MEAN stack</li>
+            <li>Integrated a responsive CSS mosaic grid and hover effects</li>
           </ul>
-        </Modal>
-        <Modal title="Tripific" visible={this.state.visible3} footer={null} onCancel={this.closeModal3}>
-          <p>some contents...</p>
-          <p>some contents...</p>
-          <p>some contents...</p>
-        </Modal>
-        <Modal title="Hilton Worldwide EMEA" visible={this.state.visible4} footer={null} onCancel={this.closeModal4}>
-          <p>some contents...</p>
-          <p>some contents...</p>
-          <p>some contents...</p>
-        </Modal>
-        <Modal title="Slot Machine" visible={this.state.visible5} footer={null} onCancel={this.closeModal5}>
-          <p>some contents...</p>
-          <p>some contents...</p>
-          <p>some contents...</p>
         </Modal>
       </div>
     );
@@ -213,3 +197,19 @@ export class Grid extends React.Component {
 }
 
 export default Grid;
+
+// <Modal title="Hilton Worldwide EMEA" visible={this.state.visible4} footer={null} onCancel={this.closeModal4}>
+//   <p>some contents...</p>
+//   <p>some contents...</p>
+//   <p>some contents...</p>
+// </Modal>
+// <Modal title="Tripific" visible={this.state.visible3} footer={null} onCancel={this.closeModal3}>
+//   <p>some contents...</p>
+//   <p>some contents...</p>
+//   <p>some contents...</p>
+// </Modal>
+// <Modal title="Slot Machine" visible={this.state.visible5} footer={null} onCancel={this.closeModal5}>
+//   <p>some contents...</p>
+//   <p>some contents...</p>
+//   <p>some contents...</p>
+// </Modal>
