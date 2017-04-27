@@ -38,7 +38,7 @@ module.exports = {
   },
   devServer: {
     contentBase: __dirname + '/public',
-    public: 'http://localhost:8080/',
+    disableHostCheck: true,
   },
   plugins: [
     new CleanWebpackPlugin(['css/main.css', 'js/bundle.js'], {
